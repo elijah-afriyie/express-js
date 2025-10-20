@@ -1,0 +1,47 @@
+/* ================================
+   HOME PAGE STYLES (home.css)
+================================== */
+
+h1 {
+	color: #ff4500; /* Reddit-style orange */
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+p {
+	text-align: center;
+	color: #555;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 1.5rem;
+}
+
+ul li {
+	background: #f0f0f0;
+	margin: 0.5rem 0;
+	padding: 0.75rem 1rem;
+	border-radius: 5px;
+	transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+ul li:hover {
+	transform: translateY(-2px);
+	background-color: #e8e8e8;
+}
+
+ul li a {
+	font-weight: 500;
+	color: #0079d3;
+	font-size: 1.05rem;
+}
+
+a[href="/"] {
+	display: block;
+	text-align: center;
+	margin-top: 2rem;
+	color: #0079d3;
+	font-weight: bold;
+}

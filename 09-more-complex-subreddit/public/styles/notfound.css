@@ -1,0 +1,42 @@
+/* ================================
+   NOT FOUND PAGE STYLES (notfound.css)
+================================== */
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #f6f7f8;
+	font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	color: #1a1a1b;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.2rem;
+	color: #ff4500; /* Reddit-style orange */
+	margin-bottom: 1rem;
+}
+
+p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	color: #555;
+}
+
+a {
+	display: inline-block;
+	background-color: #0079d3;
+	color: white;
+	padding: 0.6rem 1.2rem;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 500;
+	transition: background-color 0.2s ease;
+}
+
+a:hover {
+	background-color: #005999;
+}

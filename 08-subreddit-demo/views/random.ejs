@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Random Number Generator</h1>
+        <p>Random number: <%= randomNum %></p>
+        <!--        two ways of achieving the same result-->
+        <!--        method 1 -->
+        <% if(isEven) { %>
+            <h2>Is even number</h2>
+        <% } else { %>
+            <h2>Is odd number</h2>
+        <% } %>
+        <!--        method 2 -->
+        <h2><%= message %></h2>
+    </body>
+</html>
