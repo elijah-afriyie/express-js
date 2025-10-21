@@ -1,10 +1,10 @@
+// src/routes/user.routes.js
 import express from 'express';
-import { getUser } from '../controllers/user.controller.js';
-import { validate } from '../middleware/validation.middleware.js';
-import { userIdSchema } from '../validators/user.validator.js';
+import { getUsers, getUser, createUser, updateUser, deleteUser } from '../controllers/user.controller.js';
 
 const router = express.Router();
 
-router.get('/:id', validate(userIdSchema), getUser);
+router.route('/').get(getUsers).post(createUser);
+router.route('/:id').get(getUser).put(updateUser).delete(deleteUser);
 
 export default router;
