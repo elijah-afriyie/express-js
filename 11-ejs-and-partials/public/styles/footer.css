@@ -1,0 +1,17 @@
+/* Footer styles */
+footer {
+	background-color: #f8f9fa;
+	color: #6c757d;
+}
+
+footer .container {
+	padding: 15px 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer .small {
+	font-size: 0.9em;
+}
